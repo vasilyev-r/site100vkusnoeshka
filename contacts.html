@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> 
+	
+	<!-- Bootstrap CSS -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	
+	<!-- Style CSS -->
+	<link rel="stylesheet" href="css/theme.css">
+	
+</head>
+<body>
+    <header class="d-none d-lg-block">
+        <!-- Header nav top -->
+			<nav class="header-nav-top navbar navbar-expand-lg navbar-light d-none d-lg-block py-0">
+				<div class="container">
+					<div class="collapse navbar-collapse">
+						<ul class="navbar-nav ms-auto align-items-center">
+							<li class="nav-item me-1 me-xxl-3">
+								<a class="nav-link" href="#">
+									<div style="display: flex;">
+										<div class="nav-li-float-left">
+											<img src="img/ico/location-ico.svg">
+										</div>
+										<div class="nav-li-float-right" >
+											гор. Рязань,<br>ул. Мервинская, д. 30
+										</div>
+										<div style="clear: both;"></div>
+									</div>
+								</a>
+							</li>
+							<li class="nav-item me-1 me-xxl-3">
+								<a class="nav-link" href="#">
+									<div style="display: flex;">
+										<div class="nav-li-float-left">
+											<img src="img/ico/clock-ico.svg">
+										</div>
+										<div class="nav-li-float-right" >
+											С 9:00-21:00<br>Без выходных
+										</div>
+										<div style="clear: both;"></div>
+									</div>
+								</a>
+							</li>
+                            <li class="nav-item me-1 me-lg-2">
+                                <a href="mailto:wera9106182221@gmail.com" class="nav-link">
+                                    <div style="display: flex;" class="align-items-center">
+                                        <div class="nav-li-float-left">
+                                            <img src="img/ico/email-ico.svg">
+                                        </div>
+                                        <div class="nav-li-float-right">
+                                            <span>wera9106182221@gmail.com</span>
+                                        </div>
+                                        <div style="clear: both;"></div>
+                                    </div>
+                                </a>
+                            </li>
+							<li class="nav-item me-1 me-xxl-3">
+								<a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#callbackModal">
+									<div style="display: flex;">
+										<div class="nav-li-float-left">
+											<img src="img/ico/callback-ico.svg">
+										</div>
+										<div class="nav-li-float-right" >
+											Обратный звонок
+										</div>
+										<div style="clear: both;"></div>
+									</div>
+								</a>
+							</li>
+							<li class="nav-item me-1 me-xxl-4">
+								<a class="top-menu-tel nav-link" href="tel:89106182221">
+									<div style="display: flex;">
+										<div class="nav-li-float-left">
+											<img src="img/ico/mobile-phone-ico.svg">
+										</div>
+										<div class="nav-li-float-right" style="min-width: 128px;">
+											8 (910) 618-22-21
+										</div>
+										<div style="clear: both;"></div>
+									</div>
+								</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link ico-button" href="https://t.me/+74912555505">
+									<img src="img/ico/telegram-ico.svg">
+								</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link ico-button" href="https://wa.me/74912555505?web=1&app_absent=1">
+									<img src="img/ico/whatsapp-ico.svg">
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+        <!-- Header nav top -->
+        <nav class="header-nav-bottom navbar navbar-expand-lg navbar-light py-0" style="height: 80px;">
+            <div class="container">
+                <a class="navbar-brand" href="/">
+                    <img src="img/ico/Logo.svg"  style="max-width: 250px;">
+                </a>
+                
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mobail-header-collapse" aria-controls="mobail-header-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="mobail-header-collapse">
+                    
+                <ul id="menu-mobail-header-collapse" class="navbar-nav align-items-center ms-auto mb-2 mb-lg-0 ">
+                    <li  id="" class="nav-item d-flex">
+                        <a href="index.html" class="nav-link">Меню</a>
+                        <img class="d-none d-lg-inline nav-link" src="img/ico/menu-decoration.svg" alt="">
+                    </li>
+                    <li  id="" class="nav-item d-flex">
+                        <a href="" class="nav-link ">Доставка</a>
+                        <img class="d-none d-lg-inline nav-link" src="img/ico/menu-decoration.svg" alt="">
+                    </li>
+                    <li  id="" class="nav-item d-flex">
+                        <a href="about.html" class="nav-link">о нас</a>
+                        <img class="d-none d-lg-inline nav-link" src="img/ico/menu-decoration.svg" alt="">
+                    </li>
+                    <li  id="" class="nav-item d-flex">
+                        <a href="contacts.html" class="nav-link active">Контакты</a>
+                        <!-- <img class="d-none d-xl-inline" src="img/ico/menu-decoration.svg" alt=""> -->
+                    </li>
+
+                <!-- Mobile menu -->
+                
+                <li class="nav-item d-lg-none">
+                    <div style="font-size: 12px; font-family: HelveticaNeueCyr-Light; text-transform: none;">
+                        <img src="img/ico/location-ico.svg" style="width: 10px;" class="me-1">
+                            <span>гор. Рязань, ул. Мервинская, д. 30</span>
+                    </div>
+                    <a class="nav-link top-menu-tel pt-1 pb-1" href="tel:84912555505">8 (4912) 55-55-05</a>
+                    <div class="mb-2" style="font-size: 12px; font-family: HelveticaNeueCyr-Light; text-transform: none;">
+                        <img src="img/ico/clock-ico.svg" style="width: 10px; position: relative; top: 2px;" class="me-1 mb-2">Пн-Сб: с 10.00-19.00, Вс: с 10.00-17.00
+                    </div>
+                </li>
+                <li class="nav-item d-lg-none pb-4">
+                    <a class="ico-button pe-2" href="https://wa.me/74912555505?web=1&app_absent=1">
+                        <img src="img/ico/whatsapp-ico.svg">
+                    </a>
+                    <a class="ico-button pe-0" href="https://t.me/+74912555505">
+                        <img src="img/ico/telegram-ico.svg">
+                    </a>
+                </li>	
+                <!-- End mobile menu -->
+            </ul>
+                            </div>
+
+            </div>
+        </nav>
+        <!-- /Header nav top -->
+        
+    </header>
+    
+    <header id="sliding-header" class="shadow">
+        <!-- Header nav bottom -->
+        <nav class="header-nav-bottom navbar navbar-expand-lg navbar-light py-1 py-lg-0">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="img/ico/Logo.svg">
+                </a>
+                
+                <div class="d-lg-none">
+                    <a class="top-menu-tel pt-1 pb-0" style="font-size: 14px;" href="tel:89106182221">8 (910) 618-22-21</a>
+                    <div style="font-size: 10px; font-family: Gilroy-Light; text-transform: none; color: #c8c8c8;">
+                        <img src="img/ico/clock-ico.svg" style="width: 12px; position: relative; top: -1px;" class="me-1">С 9:00-21:00<br>Без выходных
+                    </div>
+                </div>
+                
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#sliding-header-collapse" aria-controls="sliding-header-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="sliding-header-collapse">
+                    
+                    <ul id="menu-sliding-header-collapse" class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+                        <li  id="" class="nav-item d-flex">
+                            <a href="index.html" class="nav-link ">Меню</a>
+                            <img class="d-none d-lg-inline nav-link" src="img/ico/menu-decoration.svg" alt="">
+                        </li>
+                        <li  id="" class="nav-item d-flex">
+                            <a href="" class="nav-link ">Доставка</a>
+                            <img class="d-none d-lg-inline nav-link" src="img/ico/menu-decoration.svg" alt="">
+                        </li>
+                        <li  id="" class="nav-item d-flex">
+                            <a href="about.html" class="nav-link">о нас</a>
+                            <img class="d-none d-lg-inline nav-link" src="img/ico/menu-decoration.svg" alt="">
+                        </li>
+                        <li  id="" class="nav-item d-flex">
+                            <a href="contacts.html" class="nav-link active">Контакты</a>
+                            <!-- <img src="img/ico/menu-decoration.svg" alt=""> -->
+                        </li>
+                        <li class="nav-item d-lg-none">
+                            <div style="font-size: 12px; font-family: Gilroy-Light; text-transform: none; color: #c8c8c8;">
+                                <img src="img/ico/location-ico.svg" style="width: 10px; position: relative; top: -2px;" class="me-1">
+                                <span>гор. Рязань, ул. Мервинская, д. 30</span>
+                            </div>
+                            <a class="nav-link top-menu-tel pt-1 pb-1" href="tel:89106182221">8 (910) 618-22-21</a>
+                            <div class="mb-2" style="font-size: 12px; font-family: Gilroy-Light; text-transform: none; color: #c8c8c8;">
+                                <img src="img/ico/clock-ico.svg" style="width: 10px; position: relative; top: 3px;" class="me-1 mb-2">С 9:00-21:00, Без выходных
+                            </div>
+                        </li>
+                        <li class="nav-item d-lg-none pb-2">
+                            <a class="ico-button pe-2" href="https://wa.me/79106182221?web=1&app_absent=1">
+                                <img src="img/ico/whatsapp-ico.svg">
+                            </a>
+                            <a class="ico-button pe-0" href="https://t.me/+79106182221">
+                                <img src="img/ico/telegram-ico.svg">
+                            </a>
+                        </li>	
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+        <!-- /Header nav bottom -->
+    </header>
+
+    <section class="contacts site-section bg-white" style="padding-bottom: 60px; position: relative;">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="breadcrumbs pt-4">
+                        <nav class="woocommerce-breadcrumb" itemprop="breadcrumb">
+                            <a href="#"><img src="img/ico/breadcrumbs-icon.svg"></a> / Контакты</nav>
+                    </div>
+                </div>
+            </div>
+            <div class="container" style="padding: 0;">
+                <div class="row">
+                    <div class="col text-dark ">
+                        <h2 class="text-md-center text-start mb-3">Контакты</h2>
+                        <img src="img/ico/Section-title-decoration.svg" class="mb-5 mx-md-auto d-block">
+                        <div class="container px-0" style="margin-top: 60px;">
+                            <div class="row contact-p contact-box-info mx-auto flex-column flex-md-row align-items-start align-items-md-center justify-content-between" style="max-width: 1065px;">
+                                <div class="contact-info mb-3">
+                                    <div style="display: flex;" class="align-items-center">
+                                        <div class="nav-li-float-left">
+                                            <img src="img/ico/location-ico-dark.svg">
+                                        </div>
+                                        <div class="nav-li-float-right">
+                                            <span>гор. Рязань,<br>
+                                                ул. Мервинская, д. 30</span>
+                                        </div>
+                                        <div style="clear: both;"></div>
+                                    </div>
+                                </div>
+                                <div class="contact-info mb-3" style="max-width: 155px;">
+                                    <div style="display: flex;" class="align-items-center">
+                                        <div class="nav-li-float-left">
+                                            <img src="img/ico/clock-ico-dark.svg">
+                                        </div>
+                                        <div class="nav-li-float-right" >
+                                            <span>С 9:00-21:00<br>
+                                                Без выходных</span>
+                                        </div>
+                                        <div style="clear: both;"></div>
+                                    </div>
+                                </div>
+                                <div class="contact-info mb-3" style="min-width: 250px;">
+                                    <div style="display: flex;" class="align-items-center">
+                                        <div class="nav-li-float-left">
+                                            <img src="img/ico/email-ico-dark.svg">
+                                        </div>
+                                        <div class="nav-li-float-right">
+                                            <span>wera9106182221@gmail.com</span>
+                                        </div>
+                                        <div style="clear: both;"></div>
+                                    </div>
+                                </div>
+                                <div class="contact-info mb-3" style="max-width: 160px;">
+                                    <div style="display: flex;" class="align-items-center">
+                                        <div class="nav-li-float-left">
+                                            <img src="img/ico/callback-ico-dark.svg">
+                                        </div>
+                                        <div class="nav-li-float-right">
+                                            <span>Обратный звонок</span>
+                                        </div>
+                                        <div style="clear: both;"></div>
+                                    </div>
+                                </div>
+                                <div class="contact-info mb-3">
+                                    <div style="display: flex;" class="align-items-center">
+                                        <div class="nav-li-float-left">
+                                            <img src="img/ico/mobile-phone-ico-dark.svg">
+                                        </div>
+                                        <div class="nav-li-float-right">
+                                            <span style="font-family: Century-Gothic-bold; font-size: 18px;">8 (910) 618-22-21</span>
+                                        </div>
+                                        <div style="clear: both;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-md-center" style="margin-top: 60px;">
+                            <!--
+                            <img src="https://xn--62-6kca7ahoms.xn--p1ai/wp-content/themes/mozaika/img/ico/whatsapp-ico.svg" alt="whatsapp" style="padding: 10px;">
+                            <img src="https://xn--62-6kca7ahoms.xn--p1ai/wp-content/themes/mozaika/img/ico/telegram-ico.svg" alt="telegram" style="padding: 10px;">
+                            <img src="https://xn--62-6kca7ahoms.xn--p1ai/wp-content/themes/mozaika/img/ico/instagram-ico.svg" alt="instagram" style="padding: 10px;">
+                            <img src="https://xn--62-6kca7ahoms.xn--p1ai/wp-content/themes/mozaika/img/ico/vk-ico.svg" alt="vk" style="padding: 10px;">
+                            -->
+                            <ul class="nav">
+                                <li class="nav-item">
+                                    <a class="nav-link ico-button px-2" href="https://wa.me/74912555505?web=1&amp;app_absent=1">
+                                        <img src="img/ico/whatsapp-ico.svg">
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link ico-button px-2" href="https://t.me/+74912555505">
+                                        <img src="img/ico/telegram-ico.svg">
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link ico-button px-2" href="https://www.instagram.com/mozaika.kitchen62">
+                                        <img src="img/ico/instagram-ico.svg">
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link ico-button px-2" href="https://vk.com/mozaika.kitchen62">
+                                        <img src="img/ico/vk-ico.svg">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Yandex Map -->
+    <section class="archive-products-section site-section bg-white" style="padding-bottom: 60px; z-index: 10; position: relative;">
+        <div class="container">
+            <div class="row">
+                <section id="map" style="height: 650px; border-radius: 10px;"></section>
+            </div>
+        </div>
+    </section>
+
+    <section class="contacts-section">
+	
+        <!-- Desktop version -->
+        <div class="container py-5 d-none d-xl-block">
+            <div class="row align-items-center">
+                <div class="col-xl-2">
+                    <a href="/">
+                        <img id="navbar-brand-img" src="img/ico/Logo.svg" class="">
+                    </a>
+                </div>
+                <div class="col-xl-8">
+        
+                    <ul id="" class="nav justify-content-center ">
+                        <li  id="" class="nav-item d-flex">
+                            <a href="index.html" class="nav-link ">Меню</a>
+                            <img src="img/ico/menu-decoration.svg" alt="">
+                        </li>
+                        <li  id="" class="nav-item d-flex">
+                            <a href="" class="nav-link ">Доставка</a>
+                            <img class="d-none d-xl-inline" src="img/ico/menu-decoration.svg" alt="">
+                        </li>
+                        <li  id="" class="nav-item d-flex">
+                            <a href="about.html" class="nav-link">О нас</a>
+                            <img class="d-none d-xl-inline" src="img/ico/menu-decoration.svg" alt="">
+                        </li>
+                        <li  id="" class="nav-item d-flex">
+                            <a href="contacts.html" class="nav-link active">Контакты</a>
+                            <!-- <img class="d-none d-xl-inline" src="img/ico/menu-decoration.svg" alt=""> -->
+                        </li>
+                    </ul>
+                    
+                </div>
+                <div class="col-xl-2 text-end">
+                    <a href="tel:‪84912555505" class="contacts-phone">‪
+                        <img src="img/ico/mobile-phone-ico.svg" class="me-2" style="position: relative; bottom: 1px;">8 <span>(4912)</span> 55-55-05
+                    </a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col py-4">
+                    <ul class="nav justify-content-center align-items-center">
+                        <li class="nav-item me-1 me-lg-2">
+                            <a class="nav-link" href="#">
+                                <div style="display: flex;" class="align-items-center">
+                                    <div class="nav-li-float-left">
+                                        <img src="img/ico/location-ico.svg">
+                                    </div>
+                                    <div class="nav-li-float-right text-start" >
+                                        <span>гор. Рязань,<br>ул. Мервинская, д. 30</span>
+                                    </div>
+                                    <div style="clear: both;"></div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav-item me-1 me-lg-2">
+                            <a class="nav-link" href="#">
+                                <div style="display: flex;" class="align-items-center">
+                                    <div class="nav-li-float-left">
+                                        <img src="img/ico/clock-ico.svg" class="pt-1">
+                                    </div>
+                                    <div class="nav-li-float-right text-start" >
+                                        <span>С 9:00-21:00<br>Без выходных</span>
+                                    </div>
+                                    <div style="clear: both;"></div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav-item me-1 me-lg-2">
+                            <a href="mailto:wera9106182221@gmail.com" class="nav-link">
+                                <div style="display: flex;" class="align-items-center">
+                                    <div class="nav-li-float-left">
+                                        <img src="img/ico/email-ico.svg">
+                                    </div>
+                                    <div class="nav-li-float-right">
+                                        <span>wera9106182221@gmail.com</span>
+                                    </div>
+                                    <div style="clear: both;"></div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav-item me-1 me-lg-2">
+                            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#callbackModal">
+                                <div style="display: flex;" class="align-items-center">
+                                    <div class="nav-li-float-left">
+                                        <img src="img/ico/callback-ico.svg" >
+                                    </div>
+                                    <div class="nav-li-float-right" >
+                                        <span>Обратный звонок</span>
+                                    </div>
+                                    <div style="clear: both;"></div>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col">
+                    <ul class="nav justify-content-center">
+                        <li class="nav-item">
+                            <a class="nav-link ico-button px-2" href="https://wa.me/74912555505?web=1&app_absent=1">
+                                <img src="img/ico/whatsapp-ico.svg">
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link ico-button px-2" href="https://t.me/+74912555505">
+                                <img src="img/ico/telegram-ico.svg">
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link ico-button px-2" href="https://www.instagram.com">
+                                <img src="img/ico/instagram-ico.svg">
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link ico-button px-2" href="https://vk">
+                                <img src="img/ico/vk-ico.svg">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- /Desktop version -->
+        
+        <!-- Mobile version -->
+        <div class="container d-xl-none">
+            <div class="row">
+                <div class="col py-5">
+                    <a href="#">
+                        <img id="navbar-brand-img" src="img/ico/Logo.svg" class="">
+                    </a>
+                    <ul class="ps-0 pt-3 pb-2" style="list-style: none;">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link ps-0 pb-2">
+                                <div style="display: flex;" class="align-items-center">
+                                    <div class="nav-li-float-left">
+                                        <img src="img/ico/location-ico.svg">
+                                    </div>
+                                    <div class="nav-li-float-right" >
+                                        <span>гор. Рязань, ул. Мервинская, д. 30</span>
+                                    </div>
+                                    <div style="clear: both;"></div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link ps-0 py-2">
+                                <div style="display: flex;" class="align-items-center">
+                                    <div class="nav-li-float-left">
+                                        <img src="img/ico/clock-ico.svg" class="pt-1">
+                                    </div>
+                                    <div class="nav-li-float-right" >
+                                        <span>С 9:00-21:00<br>Без выходных</span>
+                                    </div>
+                                    <div style="clear: both;"></div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="mailto:wera9106182221@gmail.com" class="nav-link ps-0 py-2">
+                                <div style="display: flex;" class="align-items-center">
+                                    <div class="nav-li-float-left">
+                                        <img src="img/ico/email-ico.svg">
+                                    </div>
+                                    <div class="nav-li-float-right">
+                                        <span>wera9106182221@gmail.com</span>
+                                    </div>
+                                    <div style="clear: both;"></div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link ps-0 pt-2">
+                                <div style="display: flex;" class="align-items-center">
+                                    <div class="nav-li-float-left">
+                                        <img src="img/ico/callback-ico.svg" >
+                                    </div>
+                                    <div class="nav-li-float-right" >
+                                        <span>Обратный звонок</span>
+                                    </div>
+                                    <div style="clear: both;"></div>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                    <a href="tel:‪84912555505" class="contacts-phone">
+                        <div style="display: flex;" class="align-items-center">
+                            <div class="nav-li-float-left">
+                                <img src="img/ico/mobile-phone-ico.svg" style="position: relative; bottom: 1px;">
+                            </div>
+                            <div class="nav-li-float-right" >
+                                8 <span>(4912)</span> 55-55-05
+                            </div>
+                            <div style="clear: both;"></div>
+                        </div>
+                    </a>
+                    <ul class="nav pt-4 pb-3 list-style-none">
+                        <li class="nav-item">
+                            <a class="nav-link ico-button ps-0 pe-2" href="https://wa.me/74912555505?web=1&app_absent=1">
+                                <img src="img/ico/whatsapp-ico.svg">
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link ico-button px-2" href="https://t.me/+74912555505">
+                                <img src="img/ico/telegram-ico.svg">
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link ico-button px-2" href="">
+                                <img src="img/ico/instagram-ico.svg">
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link ico-button px-2" href="">
+                                <img src="img/ico/vk-ico.svg">
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="row">
+                        <div class="col-lg-8 pt-2 mb-5 mb-lg-0">
+                            <div class="row d-xl-none justify-content-center">
+                                <div class="col-6 left-col-footer-menu">
+                                    <ul id="" class="navbar-nav text-md-center mb-lg-0 ">
+                                        <li id="" class="nav-item">
+                                            <a href="index.html" class="nav-link">Меню</a>
+                                        </li>
+                                        <li  id="" class="nav-item">
+                                            <a href="" class="nav-link ">Доставка</a>
+                                        </li>
+                                                
+                                    </ul>
+                                    
+                                </div>
+                                <div class="col-6 right-col-footer-menu">
+                                    <ul class="navbar-nav ms-auto text-md-center mb-lg-0 ">
+                                        <li  id="" class="nav-item">
+                                            <a href="about.html" class="nav-link">О нас</a>
+                                        </li>
+                                        <li  id="" class="nav-item">
+                                            <a href="contacts.html" class="nav-link active">Контакты</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <!-- /Mobile version -->
+        
+        <!-- Footer -->
+        <footer style="padding: 16px 0;">
+            <div class="container">
+                <div class="row">
+                    <div class="col text-start text-md-center">
+                        <div class="site-inn">
+                            <p>©2025 «Вкусноешка» | ИНН 8888888888</p>
+                        </div>
+                        <div id="im-in-footer">Создание, продвижение и поддержка сайтов:
+                            <a href="#" class="text-light">сайт100.рф</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- /Footer -->
+        
+    </section>
+    
+    <!-- API Yandex map -->
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=67fa0c4f-ad3f-4f9e-bd3f-729ca47910bf&lang=ru_RU" type="text/javascript"></script>
+    
+    <script type="text/javascript">
+        // Функция ymaps.ready() будет вызвана, когда
+        // загрузятся все компоненты API, а также когда будет готово DOM-дерево.
+        ymaps.ready(init);
+        function init(){
+            // Создание карты.
+            var myMap = new ymaps.Map("map", {
+                // Координаты центра карты.
+                // Порядок по умолчанию: «широта, долгота».
+                // Чтобы не определять координаты центра карты вручную,
+                // воспользуйтесь инструментом Определение координат.
+                center: [54.624353, 39.734443],
+                // Уровень масштабирования. Допустимые значения:
+                // от 0 (весь мир) до 19.
+                zoom: 17
+            });
+            
+            var glyphIcon1 = new ymaps.Placemark([54.624363, 39.734543], {}, {
+                iconLayout: 'default#image',
+                iconImageHref: 'https://xn--62-6kca7ahoms.xn--p1ai/wp-content/themes/mozaikaimg/ico/placemark0.png',
+                iconImageSize: [270, 270],
+                iconImageOffset: [-150, -230]
+            });
+            
+            // Размещение геообъекта на карте.
+            myMap.geoObjects.add(glyphIcon1);
+        }
+    </script>    
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+
+
+    <!-- Theme JS -->
+    <script src="js/theme.js"></script>
+
+    <script>vyezjalo();</script>
+</body>
+</html>

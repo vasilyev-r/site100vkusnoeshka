@@ -239,13 +239,13 @@ a:hover {
 .carousel-control-prev-icon {
     width: 28px;
     height: 28px;
-    background: url(../img/ico/Left-arrow.svg);
+    background: url(../img/ico/left-arrow.svg);
 }
 
 .carousel-control-next-icon {
     width: 28px;
     height: 28px;
-    background: url(../img/ico/Right-arrow.svg);
+    background: url(../img/ico/right-arrow.svg);
 }
 
 .magnifying-glass {
@@ -663,9 +663,9 @@ h6, .widget-title {
 /*** END ARCHIVE PRODUCT ***/
 
 .approximation img {
-	max-width: 306px;
-	aspect-ratio: 1.5;
+    width: 100%;
     height: 100%;
+    aspect-ratio: 1.5;
     transition: .3s all ease;
     transform: scale(1);
     object-fit: cover;
